@@ -1,0 +1,40 @@
+.bg-img {
+  background-image: url(/images/Group\ 1.png);
+}
+.navbar {
+    padding: 0!important;
+    position: fixed;
+}
+.container {
+  background-color: transparent;
+  margin-top: 22px;
+  margin-left: 32px!important;
+  margin-right: 32px!important;
+  padding: 0!important;
+  justify-content: space-between!important;
+  align-content: center!important;
+}
+.main {
+    display: flex;
+    align-items:center!important;
+}
+.main img {
+    width: 21.5px!important;
+    height: 23.3px!important;
+}
+.navbar-brand {
+    color: #fff!important;
+    font-size: 20px!important;
+    padding: 0!important;
+}
+.navbar-toggler-icon {
+    background-image: url(/icons/Hamburger\ Menu.png)!important;
+    padding: 0!important;
+    width: 17.5px!important;
+    height:10px!important;
+    
+}
+.navbar-toggler {
+    border: none!important;
+    padding: 0!important;
+}
