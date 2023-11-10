@@ -1,40 +1,95 @@
+@import url ("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap");
+
 .bg-img {
   background-image: url(/images/Group\ 1.png);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 20px!important;
 }
 .navbar {
-    padding: 0!important;
-    position: fixed;
+  padding: 0 !important;
+  position: fixed;
+  box-sizing: border-box;
 }
 .container {
   background-color: transparent;
   margin-top: 22px;
-  margin-left: 32px!important;
-  margin-right: 32px!important;
-  padding: 0!important;
-  justify-content: space-between!important;
-  align-content: center!important;
+  margin-left: 32px !important;
+  margin-right: 32px !important;
+  padding: 0 !important;
+  justify-content: space-between !important;
+  align-content: center !important;
+  box-sizing: border-box;
 }
 .main {
-    display: flex;
-    align-items:center!important;
+  display: flex;
+  align-items: center !important;
 }
 .main img {
-    width: 21.5px!important;
-    height: 23.3px!important;
+  width: 21.5px !important;
+  height: 23.3px !important;
 }
 .navbar-brand {
-    color: #fff!important;
-    font-size: 20px!important;
-    padding: 0!important;
+  color: #fff !important;
+  font-size: 20px !important;
+  padding: 0 !important;
 }
 .navbar-toggler-icon {
-    background-image: url(/icons/Hamburger\ Menu.png)!important;
-    padding: 0!important;
-    width: 17.5px!important;
-    height:10px!important;
-    
+  background-image: url(/icons/Hamburger\ Menu.png) !important;
+  padding: 0 !important;
+  width: 17.5px !important;
+  height: 10px !important;
 }
 .navbar-toggler {
-    border: none!important;
-    padding: 0!important;
+  border: none !important;
+  padding: 0 !important;
+}
+.hero {
+  padding-top: 57.37px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex!important;
+  flex-wrap: wrap!important;
+}
+.hero h1 {
+  color: #fff;
+  font-weight: 700;
+  font-family:"Open sans" sans-serif ;
+  font-size: 32px;
+  margin-bottom: 17px!important;
+}
+
+.hero .container {
+   
+    margin-top: 0!important;
+   
+    margin-right: 32px!important;
+}
+
+.hero .paragraph {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 31px!important;
+}
+
+.hero .btn {
+    background-color: #798ac9;
+    padding: 8.3px 46px!important;
+    font-size: 12px!important;
+    font-weight: 500!important;
+    color: #fff;
+}
+
+.hero-icons {
+    margin-left: 15px!important;
+    margin-right: 15px!important;
+    margin-top: 33.7px!important;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;ž
+    cursor: pointer;
 }
