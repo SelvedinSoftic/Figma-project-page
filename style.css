@@ -93,3 +93,59 @@
     box-sizing: border-box;ž
     cursor: pointer;
 }
+
+@media (min-width:1500px) {
+  .bg-img {
+    background-image: url(images/hero-pic-pc.jpg);
+    width:100%;
+    background-size: cover;
+    height: 100vh;
+    
+  }
+
+  .navbar .container {
+    margin-right: 168px!important;
+    margin-left: 168px!important;
+    margin-top: 30px!important;
+    justify-content: space-between!important;
+   
+  }
+
+  .hero .container {
+    max-width: 1440px!important;
+    margin-left: 168px!important;
+    margin-right: 168px!important;
+  }
+
+  #navbarSupportedContent  {
+    margin-left: 196px!important;
+    align-content: center!important;
+    
+  }
+
+  .first {
+    width: 375px!important;
+    display: flex;
+    justify-content: space-between!important;
+  }
+  .second {
+    align-items: center!important;
+  }
+  .navbar .nav-link {
+    color: #fff;
+  }
+  .navbar .btn {
+    padding: 12px 40px;
+    margin-left: 38px;
+    background-color: #ffbc51;
+    border-radius: 30px;
+  }
+
+  .hero-icons {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 160px!important;
+  }
+}
