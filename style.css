@@ -4,7 +4,7 @@
 );
 
 .bg-img {
-  background-image: url(/images/Group\ 1.png);
+  background-image: url(images/Group\ 1.png);
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -41,7 +41,7 @@
   padding: 0 !important;
 }
 .navbar-toggler-icon {
-  background-image: url(/icons/Hamburger\ Menu.png) !important;
+  background-image: url(icons/Hamburger\ Menu.png) !important;
   padding: 0 !important;
   width: 17.5px !important;
   height: 10px !important;
