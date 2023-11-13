@@ -98,6 +98,17 @@
   box-sizing: border-box;
   cursor: pointer;
 }
+.second-hero-img {
+  display: none;
+}
+
+.pc-pic {
+  display: none;
+}
+
+.pc-pic-2 {
+  display: none;
+}
 
 @media (min-width: 1500px) {
   .bg-img {
@@ -150,20 +161,23 @@
   .hero {
     padding-top: 160px !important;
   }
+
   .second-hero-img {
+    display: block !important;
     position: absolute;
     top: -520px !important;
     right: -70px !important;
     z-index: 0;
   }
   .pc-pic {
-    position:absolute;
-    z-index: 1!important;
+    display: block !important;
+    position: absolute;
+    z-index: 1 !important;
     right: -40px;
-    top:420px;
-    
+    top: 420px;
   }
   .pc-pic-2 {
+    display: block !important;
     z-index: 0;
     position: absolute;
     right: -80px;
